@@ -1,0 +1,33 @@
+{
+  "name": "nodereact",
+  "version": "1.0.0",
+  "description": "Full stack web Application using nodejs and react ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodman --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yaseen1989/nodejsreact.git"
+  },
+  "author": "Yaseen Alkhafaji",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^3.0.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.18.2",
+    "eslint-plugin-react": "^7.7.0",
+    "nodeman": "^1.1.2"
+  }
+}
